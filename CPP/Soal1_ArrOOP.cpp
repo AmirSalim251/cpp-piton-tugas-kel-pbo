@@ -432,7 +432,7 @@ void LarikMahasiswa::inputMahasiswa(){
 
 void LarikMahasiswa::tampilkanTabelMahasiswa(){
         int no = 1;
-        std::cout<<"\t\t\t\t==== Daftar Gaji Harian PT Informatika ====\n";
+        std::cout<<"\t\t\t\t==== Daftar Nilai Mahasiswa Teknik Informatika ====\n";
         if(this->mhs[0].getNPM()==" "){
             std::cout<<"Data kosong ! \n";
         }

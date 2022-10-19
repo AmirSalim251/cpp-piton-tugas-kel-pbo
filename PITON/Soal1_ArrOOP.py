@@ -386,7 +386,7 @@ class LarikMahasiswa:
 
     def tampilkanTabelMahasiswa(self):
         no =int(1);
-        print("\t\t\t\t==== Daftar Gaji Harian PT Informatika ====")
+        print("\t\t\t\t==== Daftar Nilai Mahasiswa Teknik Informatika ====")
         if(self.__mhs[0].getNPM()==" "):
             print("Data kosong ! ")
         
