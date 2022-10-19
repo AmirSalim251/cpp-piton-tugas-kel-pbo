@@ -1,3 +1,12 @@
+/* 
+Nama : Amir Salim , Andre Nathaniel Adipraja , Prames Ray lapian , Ibrahim Dafi Iskandar
+NPM : 140810210015 , 140810200042 , 140810210059 , 140810210039
+Kelas : A
+Tanggal : 19 Oktober 2022
+Nama Program : Soal1_ArrOOP.cpp
+Deskripsi : program untuk mencari nilai mahasiswa
+*/
+
 #include<iostream>
 
 class Waktu{
