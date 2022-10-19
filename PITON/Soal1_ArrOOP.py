@@ -174,7 +174,7 @@ class Ujian:
 
 class Mahasiswa:
     #Attribute
-    __npm = " "
+    __NPM = " "
     __nama = " "
     __banyakUjian = int(0)
     __kumpUjian = []
@@ -204,7 +204,7 @@ class Mahasiswa:
     def inputKumpUjian(self):
         i = int(0)
         while(i<self.__banyakUjian):
-            print("\nInput ujian  ke ",(i+1) ," atas nama ",self.__nama," dengan npm ",self.__npm,"\n")
+            print("\nInput ujian  ke ",(i+1) ," atas nama ",self.__nama," dengan npm ",self.__NPM,"\n")
             obj = Ujian()
             obj.inputUlangan()
             self.__kumpUjian.append(obj)
@@ -250,7 +250,7 @@ class Mahasiswa:
 
     def outputMahasiswa(self):
         print("NPM         : " , self.__NPM)
-        print("NPM         : " , self.__nama)
+        print("Nama        : " , self.__nama)
         print("\n---Nilai Ujian---\n")
         self.__outputKumpUjian()
        
